@@ -1,0 +1,11 @@
+iPhone uygulamasi - Mac olmadan derleme
+
+1) github.com'da ucretsiz hesap acin (ya da mevcut hesabi kullanin).
+2) Yeni bos bir depo olusturun (ornek ad: playtimetwoo-ios). Gizli (private) olabilir.
+3) Bu ios klasorunun ICINDEKI her seyi (project.yml, Sources, .github ...) deponun ana klasorune yukleyin.
+   (GitHub sayfasinda "uploading an existing file" ile surukleyip birakabilirsiniz; .github klasorunu da dahil edin.)
+4) Depoda Actions sekmesi > "iPhone uygulamasini derle" > Run workflow. 5-10 dk surer.
+5) Bitince calismanin altindaki Artifacts > PlayTimeTwoo-ipa dosyasini indirin (zip icinde PlayTimeTwoo.ipa).
+6) Windows'ta Sideloadly (sideloadly.io) kurun, iPhone'u kabloyla baglayin, .ipa'yi surukleyin, kendi Apple ID'nizle imzalayip kurun.
+7) iPhone: Ayarlar > Genel > VPN ve Cihaz Yonetimi > Apple ID'nize guvenin; Gelistirici Modu'nu acin (Ayarlar > Gizlilik ve Guvenlik).
+8) Ucretsiz Apple ID ile kurulum 7 gun gecerlidir; sure dolmadan Sideloadly ile tekrar kurun.
